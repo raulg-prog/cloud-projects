@@ -40,8 +40,8 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 
 * Activated AWS Cost Explorer via Billing Dashboard
 * Note: Data takes up to 24 hours to populate
-
-📸 *Add screenshot here*
+* 
+![Budget Setup](./screenshots/cost-explorer.png)
 
 ---
 
