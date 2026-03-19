@@ -40,7 +40,6 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 
 * Activated AWS Cost Explorer via Billing Dashboard
 * Note: Data takes up to 24 hours to populate
-* 
 ![Budget Setup](./screenshots/cost-explorer.png)
 
 ---
@@ -53,8 +52,8 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
   * 50% (Actual)
   * 80% (Actual)
   * 100% (Forecasted)
-
-📸 *Add screenshot here*
+![Budget Setup](./screenshots/budget-1.png)
+![Budget Setup](./screenshots/budget-2.png)
 
 ---
 
@@ -63,8 +62,7 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 * Created SNS topic: `budget-alerts`
 * Subscribed email endpoint for notifications
 * Confirmed email subscription
-
-📸 *Add screenshot here*
+![Budget Setup](./screenshots/sns.png)
 
 ---
 
@@ -73,7 +71,7 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 * Linked SNS topic ARN to all budget alerts
 * Enabled automated notifications via SNS
 
-📸 *Add screenshot here*
+![Budget Setup](./screenshots/alert->sns.png)
 
 ---
 
@@ -83,17 +81,7 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 
   * Name: `cost-monitor`
   * Type: `t3.micro`
-
-📸 *Add screenshot here*
-
----
-
-### 6. Tag Resources for Cost Tracking
-
-* Tag key: `Project`
-* Tag value: `CostMonitoringLab`
-
-📸 *Add screenshot here*
+![Budget Setup](./screenshots/eec2.png)
 
 ---
 
