@@ -80,7 +80,7 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 ![Budget Setup](./screenshots/eec2.png)
 
 
-## 🧠 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 * Cost monitoring and budgeting (FinOps fundamentals)
 * AWS resource tagging strategy
@@ -89,7 +89,7 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 
 ---
 
-## ⚠️ Challenges & Learnings
+## Challenges & Learnings
 
 * Cost Explorer data is delayed (~24 hours)
 * SNS email subscriptions require manual confirmation
@@ -98,19 +98,19 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Integrate with **Grafana dashboards**
 * Automate cost control actions using **AWS Lambda**
 
 ---
 
-## 🧾 Terraform
+## Terraform
 
-This project will be have a terraform file that will automate the sns and budget settings but user still needs to activate cost explorer and have their own instances running
+This project includes a Terraform configuration to automate SNS and budget setup. Users must still enable Cost Explorer manually and have active AWS resources generating usage.
 ---
 
-## 📁 Project Structure
+## 📁  roject Structure
 
 ```
 cost-monitoring/
