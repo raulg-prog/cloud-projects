@@ -100,8 +100,6 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 
 ## 🚀 Future Improvements
 
-* Implement full infrastructure using **Terraform**
-* Add tag-based budgets for per-project cost tracking
 * Integrate with **Grafana dashboards**
 * Automate cost control actions using **AWS Lambda**
 
