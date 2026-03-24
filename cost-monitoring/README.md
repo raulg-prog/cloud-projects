@@ -1,15 +1,14 @@
 
 # AWS Cost Monitoring & Alerting System
 
-## 📌 Overview
+## Overview
 
-This project implements a cloud cost monitoring and alerting system in AWS to track usage, prevent overspending, and improve cost visibility. It demonstrates real-world FinOps practices using AWS-native tools and tagged infrastructure.
-
+This project implements a cloud cost monitoring and alerting system in AWS to track usage, prevent overspending, and improve cost visibility.
 ---
 
 ## ❗ Problem
 
-Cloud costs can quickly grow without proper monitoring and alerts. Without visibility, it becomes difficult to identify which resources are generating costs and when spending exceeds expectations.
+Cloud costs can quickly grow without proper monitoring and alerts. Without visibility it becomes difficult to identify which resources are generating costs and when spending exceeds expectations.
 
 ---
 
@@ -20,21 +19,18 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 * Monitor cloud spending
 * Set budget thresholds
 * Trigger alerts when limits are exceeded
-* Track cost per project using resource tags
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 * **EC2** → generates usage/cost
 * **AWS Budgets** → defines spending limits
 * **SNS** → sends alert notifications
 * **Cost Explorer** → analyzes cost data
-* **Tags** → enables cost tracking per project
-
 ---
 
-## ⚙️ Implementation Steps
+## Implementation Steps
 
 ### 1. Enable Cost Explorer
 
@@ -83,18 +79,6 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
   * Type: `t3.micro`
 ![Budget Setup](./screenshots/eec2.png)
 
----
-
-### 7. Analyze Cost Data
-
-* Used Cost Explorer to:
-
-  * View service-level spending
-  * Group costs by tag (`Project`)
-
-📸 *Add screenshot here*
-
----
 
 ## 🧠 Key Concepts Demonstrated
 
@@ -123,17 +107,9 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 
 ---
 
-## 🧾 Terraform (Planned)
+## 🧾 Terraform
 
-This project will be extended to include Infrastructure as Code using Terraform:
-
-```hcl
-# Example (placeholder)
-resource "aws_sns_topic" "budget_alerts" {
-  name = "budget-alerts"
-}
-```
-
+This project will be have a terraform file that will automate the sns and budget settings but user still needs to activate cost explorer and have their own instances running
 ---
 
 ## 📁 Project Structure
