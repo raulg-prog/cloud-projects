@@ -110,7 +110,7 @@ This project uses AWS Cost Explorer, AWS Budgets, and SNS notifications to:
 This project includes a Terraform configuration to automate SNS and budget setup. Users must still enable Cost Explorer manually and have active AWS resources generating usage.
 ---
 
-## 📁  roject Structure
+## 📁 Project Structure
 
 ```
 cost-monitoring/
@@ -122,6 +122,6 @@ cost-monitoring/
 
 ---
 
-## 📊 Outcome
+## Outcome
 
 This project demonstrates how to design a cost-aware cloud environment with proactive alerting and resource-level visibility, aligning with real-world cloud engineering and FinOps practices.
